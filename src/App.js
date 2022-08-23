@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import "./Components/Login/Login.css"
+import Login from './Components/Login';
 
 function App() {
   return (
     <div className="App">
-     <h1>ramish</h1>
+      <div>
+      <Login></Login>
+      </div>
+    
     </div>
   );
 }
